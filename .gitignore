@@ -1,0 +1,35 @@
+# MATLAB temporary files
+*.asv
+*.m~
+
+# MATLAB autosave files
+*.autosave
+
+# Simulink autosave and cache
+slprj/
+*.slxc
+
+# Code generation folders
+codegen/
+
+# MATLAB compiler output
+*.mex*
+*.p
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor temp files
+*~
+.*.swp
+
+# Results and output (keep directory structure)
+results/*.mat
+results/*.png
+results/*.jpg
+results/*.fig
+
+# But keep the results folder
+!results/
+!results/.gitkeep
